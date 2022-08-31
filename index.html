@@ -46,17 +46,17 @@
                         </div>
                         <div>
                             <label for="number">Phone Number</label>
-                            <input type="tel" autocomplete="off" id="number" name="number" required>
+                            <input type="tel" autocomplete="off" id="number" name="number" minlength="10" maxlength="11" required>
                         </div>
                     </div>
                     <div>
                         <div>
                             <label for="password">Password</label>
-                            <input type="password" id="password" name="password" required>
+                            <input class="error" type="password" id="password" name="password" required>
                         </div>
                         <div>
                             <label for="confirm-pass">Confirm Password</label>
-                            <input type="password" id="confirm-pass" name="confirm-pass" required>
+                            <input class="error" type="password" id="confirm-pass" name="confirm-pass" required>
                         </div>
                     </div>
                 </form>
