@@ -60,16 +60,18 @@ body {
 .form {
     background-color: white;
     width: calc(100vw - 37vw);
+    padding-left: 3vw;
+
 }
 
 .form h1 {
     font-size: 20px;
-    font-family: sans-serif;
-    padding-left: 3vw;
+    font-family: "Roboto", sans-serif;
 }
 
 form > div {
     display: flex;
+    gap: 70px;
 }
 
 form > div > div {
@@ -79,4 +81,18 @@ form > div > div {
 
 input {
     width: 200px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 25px;
+    width: 20vw;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #596d48;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
