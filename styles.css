@@ -129,3 +129,12 @@ h4 a {
     text-decoration: none;
     color:#596d48;
 }
+
+.error-message {
+    display: none;
+    color: #f02849;
+    font-weight: bold;
+    font-family: sans-serif, arial;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
