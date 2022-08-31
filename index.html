@@ -28,42 +28,42 @@
             </div>
             <div class="form">
                 <h1>Let's do this!</h1>
-                <form action="#" method="get" id="signup">
+                <form action="#" id="signup">
                     <div>
                         <div>
                             <label for="firstname">First Name</label>
-                            <input type="text" autocomplete="off" id="firstname" name="firstname">
+                            <input type="text" autocomplete="off" id="firstname" name="firstname" required>
                         </div>
                         <div>
                             <label for="lastname">Last Name</label>
-                            <input type="text" autocomplete="off" id="lastname" name="lastname">
+                            <input type="text" autocomplete="off" id="lastname" name="lastname" required>
                         </div>
                     </div>
                     <div>
                         <div>
                             <label for="email">Email</label>
-                            <input type="email" autocomplete="off" id="email" name="email">
+                            <input type="email" autocomplete="off" id="email" name="email" required>
                         </div>
                         <div>
                             <label for="number">Phone Number</label>
-                            <input type="tel" autocomplete="off" id="number" name="number">
+                            <input type="tel" autocomplete="off" id="number" name="number" required>
                         </div>
                     </div>
                     <div>
                         <div>
                             <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
                         </div>
                         <div>
                             <label for="confirm-pass">Confirm Password</label>
-                            <input type="password" id="confirm-pass" name="confirm-pass">
+                            <input type="password" id="confirm-pass" name="confirm-pass" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="submit">
                 <button type="submit" form="signup" value="signup">Create Account</button>
-                <h4>Already have an account? <span>Log in</span></h4>
+                <h4>Already have an account? <a href="#">Log in</a></h4>
             </div>
         </div>
     </div>
