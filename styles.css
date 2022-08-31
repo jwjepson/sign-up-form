@@ -120,6 +120,10 @@ button[type=submit] {
     border-radius: 5px;
 }
 
+button[type=submit]:hover {
+    cursor: pointer;
+}
+
 .submit h4 {
     margin-top: 30px;
     font-weight: normal;
