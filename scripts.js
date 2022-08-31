@@ -7,6 +7,12 @@ function passwordCheck() {
     }
     else {
         errorMessage = document.querySelector(".error-message");
+
+        passwordInputFields = document.querySelectorAll(".error");
+        passwordInputFields.forEach((input) => {
+            input.style.borderColor = "red";
+        });
+
         errorMessage.textContent = "Passwords do not match";
         errorMessage.style.display = "block";
         return false;
