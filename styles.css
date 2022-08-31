@@ -125,6 +125,7 @@ button[type=submit] {
     font-weight: normal;
 }
 
-h4 span {
+h4 a {
+    text-decoration: none;
     color:#596d48;
 }
