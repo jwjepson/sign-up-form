@@ -67,3 +67,16 @@ body {
     font-family: sans-serif;
     padding-left: 3vw;
 }
+
+form > div {
+    display: flex;
+}
+
+form > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+}
