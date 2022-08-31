@@ -56,3 +56,14 @@ body {
     margin-top: 120px;
     font-family: sans-serif;
 }
+
+.form {
+    background-color: white;
+    width: calc(100vw - 37vw);
+}
+
+.form h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 3vw;
+}
